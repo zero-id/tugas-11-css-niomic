@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    padding: 15px;
+}
+
+header ul li{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    padding: 15px;
+}
+
+p {
+    padding-bottom: 15px;
+    column-count: 4;
+    column-rule: 5px double black;
+}
+
+.title {
+    padding-bottom: 15px;
+    column-span: all;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
